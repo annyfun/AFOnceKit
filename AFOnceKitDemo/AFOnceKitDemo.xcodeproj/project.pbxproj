@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		711032401B1A24E40058E992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110323F1B1A24E40058E992 /* main.m */; };
+		711032431B1A24E40058E992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 711032421B1A24E40058E992 /* AppDelegate.m */; };
+		7110325A1B1A24E40058E992 /* AFOnceKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711032591B1A24E40058E992 /* AFOnceKitDemoTests.m */; };
+		711032661B1A25220058E992 /* AFOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 711032651B1A25220058E992 /* AFOnce.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711032541B1A24E40058E992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711032321B1A24E40058E992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711032391B1A24E40058E992;
+			remoteInfo = AFOnceKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7110323A1B1A24E40058E992 /* AFOnceKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFOnceKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7110323E1B1A24E40058E992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7110323F1B1A24E40058E992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		711032411B1A24E40058E992 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		711032421B1A24E40058E992 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		711032531B1A24E40058E992 /* AFOnceKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFOnceKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		711032581B1A24E40058E992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711032591B1A24E40058E992 /* AFOnceKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOnceKitDemoTests.m; sourceTree = "<group>"; };
+		711032641B1A25220058E992 /* AFOnce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOnce.h; sourceTree = "<group>"; };
+		711032651B1A25220058E992 /* AFOnce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOnce.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711032371B1A24E40058E992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711032501B1A24E40058E992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711032311B1A24E40058E992 = {
+			isa = PBXGroup;
+			children = (
+				711032631B1A25220058E992 /* AFOnceKit */,
+				7110323C1B1A24E40058E992 /* AFOnceKitDemo */,
+				711032561B1A24E40058E992 /* AFOnceKitDemoTests */,
+				7110323B1B1A24E40058E992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7110323B1B1A24E40058E992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7110323A1B1A24E40058E992 /* AFOnceKitDemo.app */,
+				711032531B1A24E40058E992 /* AFOnceKitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7110323C1B1A24E40058E992 /* AFOnceKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				711032411B1A24E40058E992 /* AppDelegate.h */,
+				711032421B1A24E40058E992 /* AppDelegate.m */,
+				7110323D1B1A24E40058E992 /* Supporting Files */,
+			);
+			path = AFOnceKitDemo;
+			sourceTree = "<group>";
+		};
+		7110323D1B1A24E40058E992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7110323E1B1A24E40058E992 /* Info.plist */,
+				7110323F1B1A24E40058E992 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711032561B1A24E40058E992 /* AFOnceKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				711032591B1A24E40058E992 /* AFOnceKitDemoTests.m */,
+				711032571B1A24E40058E992 /* Supporting Files */,
+			);
+			path = AFOnceKitDemoTests;
+			sourceTree = "<group>";
+		};
+		711032571B1A24E40058E992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711032581B1A24E40058E992 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711032631B1A25220058E992 /* AFOnceKit */ = {
+			isa = PBXGroup;
+			children = (
+				711032641B1A25220058E992 /* AFOnce.h */,
+				711032651B1A25220058E992 /* AFOnce.m */,
+			);
+			path = AFOnceKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711032391B1A24E40058E992 /* AFOnceKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7110325D1B1A24E40058E992 /* Build configuration list for PBXNativeTarget "AFOnceKitDemo" */;
+			buildPhases = (
+				711032361B1A24E40058E992 /* Sources */,
+				711032371B1A24E40058E992 /* Frameworks */,
+				711032381B1A24E40058E992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFOnceKitDemo;
+			productName = AFOnceKitDemo;
+			productReference = 7110323A1B1A24E40058E992 /* AFOnceKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		711032521B1A24E40058E992 /* AFOnceKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711032601B1A24E40058E992 /* Build configuration list for PBXNativeTarget "AFOnceKitDemoTests" */;
+			buildPhases = (
+				7110324F1B1A24E40058E992 /* Sources */,
+				711032501B1A24E40058E992 /* Frameworks */,
+				711032511B1A24E40058E992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711032551B1A24E40058E992 /* PBXTargetDependency */,
+			);
+			name = AFOnceKitDemoTests;
+			productName = AFOnceKitDemoTests;
+			productReference = 711032531B1A24E40058E992 /* AFOnceKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711032321B1A24E40058E992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = AnnyFun;
+				TargetAttributes = {
+					711032391B1A24E40058E992 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					711032521B1A24E40058E992 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 711032391B1A24E40058E992;
+					};
+				};
+			};
+			buildConfigurationList = 711032351B1A24E40058E992 /* Build configuration list for PBXProject "AFOnceKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711032311B1A24E40058E992;
+			productRefGroup = 7110323B1B1A24E40058E992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711032391B1A24E40058E992 /* AFOnceKitDemo */,
+				711032521B1A24E40058E992 /* AFOnceKitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711032381B1A24E40058E992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711032511B1A24E40058E992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711032361B1A24E40058E992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711032431B1A24E40058E992 /* AppDelegate.m in Sources */,
+				711032401B1A24E40058E992 /* main.m in Sources */,
+				711032661B1A25220058E992 /* AFOnce.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7110324F1B1A24E40058E992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7110325A1B1A24E40058E992 /* AFOnceKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711032551B1A24E40058E992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711032391B1A24E40058E992 /* AFOnceKitDemo */;
+			targetProxy = 711032541B1A24E40058E992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7110325B1B1A24E40058E992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7110325C1B1A24E40058E992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7110325E1B1A24E40058E992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFOnceKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7110325F1B1A24E40058E992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFOnceKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		711032611B1A24E40058E992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFOnceKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFOnceKitDemo.app/AFOnceKitDemo";
+			};
+			name = Debug;
+		};
+		711032621B1A24E40058E992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AFOnceKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFOnceKitDemo.app/AFOnceKitDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711032351B1A24E40058E992 /* Build configuration list for PBXProject "AFOnceKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7110325B1B1A24E40058E992 /* Debug */,
+				7110325C1B1A24E40058E992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7110325D1B1A24E40058E992 /* Build configuration list for PBXNativeTarget "AFOnceKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7110325E1B1A24E40058E992 /* Debug */,
+				7110325F1B1A24E40058E992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		711032601B1A24E40058E992 /* Build configuration list for PBXNativeTarget "AFOnceKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711032611B1A24E40058E992 /* Debug */,
+				711032621B1A24E40058E992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711032321B1A24E40058E992 /* Project object */;
+}
