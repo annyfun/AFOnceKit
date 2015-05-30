@@ -10,7 +10,7 @@
 		711032401B1A24E40058E992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110323F1B1A24E40058E992 /* main.m */; };
 		711032431B1A24E40058E992 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 711032421B1A24E40058E992 /* AppDelegate.m */; };
 		7110325A1B1A24E40058E992 /* AFOnceKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711032591B1A24E40058E992 /* AFOnceKitDemoTests.m */; };
-		711032661B1A25220058E992 /* AFOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 711032651B1A25220058E992 /* AFOnce.m */; };
+		712E414B1B1A30F500A3317A /* AFOnce.m in Sources */ = {isa = PBXBuildFile; fileRef = 712E414A1B1A30F500A3317A /* AFOnce.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +32,8 @@
 		711032531B1A24E40058E992 /* AFOnceKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFOnceKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		711032581B1A24E40058E992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		711032591B1A24E40058E992 /* AFOnceKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFOnceKitDemoTests.m; sourceTree = "<group>"; };
-		711032641B1A25220058E992 /* AFOnce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOnce.h; sourceTree = "<group>"; };
-		711032651B1A25220058E992 /* AFOnce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOnce.m; sourceTree = "<group>"; };
+		712E41491B1A30F500A3317A /* AFOnce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOnce.h; sourceTree = "<group>"; };
+		712E414A1B1A30F500A3317A /* AFOnce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOnce.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		711032311B1A24E40058E992 = {
 			isa = PBXGroup;
 			children = (
-				711032631B1A25220058E992 /* AFOnceKit */,
+				712E41481B1A30F500A3317A /* AFOnceKit */,
 				7110323C1B1A24E40058E992 /* AFOnceKitDemo */,
 				711032561B1A24E40058E992 /* AFOnceKitDemoTests */,
 				7110323B1B1A24E40058E992 /* Products */,
@@ -109,13 +109,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		711032631B1A25220058E992 /* AFOnceKit */ = {
+		712E41481B1A30F500A3317A /* AFOnceKit */ = {
 			isa = PBXGroup;
 			children = (
-				711032641B1A25220058E992 /* AFOnce.h */,
-				711032651B1A25220058E992 /* AFOnce.m */,
+				712E41491B1A30F500A3317A /* AFOnce.h */,
+				712E414A1B1A30F500A3317A /* AFOnce.m */,
 			);
-			path = AFOnceKit;
+			name = AFOnceKit;
+			path = ../AFOnceKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712E414B1B1A30F500A3317A /* AFOnce.m in Sources */,
 				711032431B1A24E40058E992 /* AppDelegate.m in Sources */,
 				711032401B1A24E40058E992 /* main.m in Sources */,
-				711032661B1A25220058E992 /* AFOnce.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +394,7 @@
 				7110325F1B1A24E40058E992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		711032601B1A24E40058E992 /* Build configuration list for PBXNativeTarget "AFOnceKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +403,7 @@
 				711032621B1A24E40058E992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
